@@ -3,6 +3,13 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive CV using Html&CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
@@ -11,12 +18,235 @@
       <div class="left_Side">
         <div class="profileText">
           <div class="imgBx">
-            <img src="https://i.pravatar.cc/150" alt="avatar" />
+            <img src="MY_IMAGE.jpg" alt="avatar" />
           </div>
-          <h2>NIDHI GUPTA<br /><span>Database Developer</span></h2>
+          <h2>Nidhi Gupta<br /><span>Database Developer</span></h2>
+        </div>
+        <div class="contactInfo user">
+          <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-phone" aria-hidden="true"></i></span
+              ><span class="text">+91 9560925869</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-envelope" aria-hidden="true"></i></span
+              ><span class="text">nidhig631@gmail.com</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></span>
+              <span class="text">www.linkedin.com/in/nidhig631</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-medium" aria-hidden="true"></i
+              ></span>
+              <span class="text">nidhig631.medium.com</span>
+            </li>
+            <!-- <li>
+              <span
+                class="icon"
+                data-icon="ion-logo-tableau"
+                data-inline="false"
+              ></span>
+              <span class="text"
+                >https://public.tableau.com/profile/nidhi.gupta4553#!/</span
+              >
+            </li> -->
+            <li>
+              <span class="icon"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></span>
+              <span class="text">Dibiyapur, U.P. India</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2015-2019</h5>
+              <h4>Bachelor Degree in Information Technology(HONS)</h4>
+              <h4>Dr. A.P.J Abdul Kalam Technical University</h4>
+            </li>
+            <li>
+              <h5>2014-2015</h5>
+              <h4>Higher Secondary Certificate</h4>
+              <h4>S.T. Joseph's sr. sec. school</h4>
+            </li>
+            <li>
+              <h5>2012-2013</h5>
+              <h4>Secondary School Certificate</h4>
+              <h4>S.T. Joseph's sr. sec. school</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo language">
+          <h3 class="title">Language</h3>
+          <ul>
+            <li>
+              <span class="text">English</span>
+              <span class="percent">
+                <div style="width: 90%"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Hindi</span>
+              <span class="percent">
+                <div style="width: 90%"></div>
+              </span>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="right_Side"></div>
+
+      <div class="right_Side">
+        <div class="about">
+          <h2 class="title2">Profile</h2>
+          <p>
+            Database developer with 2 years of hands-on experience with SQL and
+            No-SQL databases, Visulization tool Tableau and PowerBI and
+            Monitoring tool Grafana and AWS. Expertise in DBMS, RDBMS, SQL
+            Server, Mysql, Postgresql, Mongo, Cassandra,TimescaleDB(timeseries),
+            CosmosDB and Data migration.Working knowledge of ETL,SSAS, SSIS
+            SSRS, Python, Data Analysis, Data cleaning, Azure and Snowflake.<br />
+            Tools knowledge pgadmin4, Mysqlworkbench, SSMS, Microsoft visual
+            studio, Data migration tools, DB visualizer etc.
+          </p>
+        </div>
+        <div class="about">
+          <h2 class="title2">Experience</h2>
+          <div class="box">
+            <div class="year_company">
+              <h5>2019 - Present</h5>
+              <h5>VVDN Technologies Private Limited</h5>
+            </div>
+            <div class="text">
+              <h4>Database Developer</h4>
+              <p>
+                Experience in creating Database Objects–Schemas, Tables, Indexes
+                (clustered and non-clustered), Views, User defined functions
+                (UDFs), Cursors, Triggers, Stored Procedure, Constraints, Roles,
+                CTE(recursive and non-recursive), subquery, T-SQL queries, DCL,
+                DDL, DML Scripts, query optimization andtuning and established
+                relationships between tables using Primary Keys & Foreign Keys.
+              </p>
+              <p>
+                Worked on Database migration, Database design, Normalization &
+                De-Normalization, Entity Relationship Design (ERD) model, Unit
+                testing and debugging stored procedures, triggers,
+                troubleshooting database issues, Bulk data insertion, DB load
+                testing, Partiting, TTL in cassandra, Timescale DB, Graph
+                creation on grafana for alerts, notifications and device
+                presence.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="box">
+            <div class="year_company">
+              <h5>Projects</h5>
+            </div>
+            <div class="text">
+              <h4>Samsung Data migration Phase-1</h4>
+              <p>Database- SQL Server and Postgresql</p>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="about skills">
+          <h2 class="title2">Professional Skills</h2>
+          <div class="box">
+            <h4>Postgresql</h4>
+            <div class="percent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Mysql</h4>
+            <div class="percent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>SQL Server</h4>
+            <div class="percent">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Cassandra</h4>
+            <div class="percent">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>CosmosDB</h4>
+            <div class="percent">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Snowflake</h4>
+            <div class="percent">
+              <div style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Grafana</h4>
+            <div class="percent">
+              <div style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>MongoDB</h4>
+            <div class="percent">
+              <div style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Tableau</h4>
+            <div class="percent">
+              <div style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>PowerBI</h4>
+            <div class="percent">
+              <div style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>ETL</h4>
+            <div class="percent">
+              <div style="width: 50%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Python</h4>
+            <div class="percent">
+              <div style="width: 40%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>HTML</h4>
+            <div class="percent">
+              <div style="width: 40%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>CSS</h4>
+            <div class="percent">
+              <div style="width: 30%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
